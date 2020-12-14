@@ -5,6 +5,8 @@ class UserInDB(BaseModel):
     username: str
     password: str
     balance: int
+        
+# Creando una base de datos ficticia
 
 database_users = Dict[str, UserInDB]
 
